@@ -3,11 +3,17 @@ html {
 }
 body {
 	height: 100%;
+    background-color: #41587D;   
 }
 .windowsbox {
 	max-width: 1000px;
 	height: 100%;
 	margin: auto;
+    border: 0;
+    padding: 3px;
+    border-radius: 15px;
+    outline: none;
+    color: #999;	
 /*     撑开坍塌的父div*/
     overflow: hidden;
     zoom:1;	
