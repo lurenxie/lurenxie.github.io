@@ -40,7 +40,7 @@
 		border-bottom-width: 2px;
 		border-bottom-color: #C9DEFB;	
 	}
-	a:link {
+/*	a:link {
 		color: #333333;
 		text-decoration:none;
 	}
@@ -55,7 +55,7 @@
 	a:active {
 		color: #ff3300;
 		text-decoration:underline;
-	}
+	}*/
 	
 	.main2{
 		width: auto;
@@ -103,6 +103,40 @@
 
 	}
 
+	ul{
+		list-style-type: none;
+		width: 100px;
+		margin: 10px;
+		padding: 0;
+		overflow: hidden;
+		background-color: #dedede;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #C9DEFB;
+	}
+			
+
+	a:link,a:visited{
+		display: block;
+		width: 100px;
+/*		border-style: solid;
+		border-width: 1px 1px 0 1px;
+		border-color: #373631;*/
+		/*font-weight: bold;*/
+		color: #000000;
+		background-color: #ffffff;
+		/*text-align: center;*/
+		padding: 4px;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	a:hover,a:active{
+		background-color: #dedede;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #C9DEFB;
+	}	
+	
 </style>
 </head>
 
@@ -121,24 +155,22 @@
 	<main>
 		<!-- <div><a href="网址">网站名</a></div> -->
 		<div class="main1">
-			<div class="main11"><h3>工具站</h3></div>
-			<div><a href="http://39.108.83.210/">懒得个人站</a></div>
-			<div><a href="http://nec.netease.com/">NEC : 更好的CSS样式解决方案</a></div>
-			<div><a href="https://www.csdn.net/">CSDN-专业IT技术社区</a></div>
-			<div><a href="http://www.runoob.com/">菜鸟教程 - 学的不仅是技术,更是梦想!</a></div>
-			<div><a href="http://www.w3school.com.cn/">w3c school - w3school 在线教程</a></div>
-			<div><a href="https://github.com/">GitHub · Build software better, together.</a></div>
-			<div><a href="http://www.csszengarden.com/tr/zh-cn/">CSS 禅意花园: CSS 设计之美</a></div>
-			<div><a href="http://news.ifeng.com/photo/special/living-as-flowers/">像花儿一样</a></div>
-			<div><a href="网址">网站名</a></div>
-			<div><a href="网址">网站名</a></div>
-			<div><a href="网址">网站名</a></div>
-			<div><a href="网址">网站名</a></div>
-			<div><a href="网址">网站名</a></div>
-			<div><a href="网址">网站名</a></div>
-			<div><a href="网址">网站名</a></div>
-			<div><a href="网址">网站名</a></div>
-			<div><a href="网址">网站名</a></div>	
+			<div class="main11">
+				<h3>工具站</h3>
+			</div>
+
+			<ul>
+				<li><a href="http://39.108.83.210/">懒得个站</a></li>
+				<li><a href="http://nec.netease.com/" title="NEC">前端规范</a></li>
+				<li><a href="https://www.csdn.net/">CSDN</a></li>
+				<li><a href="http://www.runoob.com/">菜鸟教程</a></li>
+				<li><a href="http://www.w3school.com.cn/">w3cschool</a></li>
+				<li><a href="https://github.com/">GitHub</a></li>
+				<li><a href="http://www.csszengarden.com/tr/zh-cn/">禅意花园</a></li>
+				<li><a href="http://news.ifeng.com/photo/special/living-as-flowers/">像花儿一样</a></li>
+				<li><a href="网址">网站名</a></div>
+			</ul>
+
 		</div>
 
 		<div class="main2">
