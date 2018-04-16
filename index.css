@@ -1,3 +1,7 @@
+	body{
+		background-color:  #FCFDF8;
+	}
+
 	div{
 		padding: 5px;
 	}	
@@ -29,8 +33,9 @@
 		border-color: #C9DEFB;
 		padding: 2px;
 		float: left;
-		clear: left;	
+		clear: left;
 	}
+
 	.main1{
 		width: 500px;
 		margin: 2px;
@@ -101,7 +106,15 @@
 		float: left;
 	}
 
-	.main12 a:link{
+	.main2{
+		width: 120px;
+		margin: 2px;
+		padding: 2px;
+		float: left;
+		clear: left;
+	}
+
+	.main21 a:link{
 		display: block;
 		width: 100px;
 /*		border-style: solid;
@@ -109,14 +122,14 @@
 		border-color: #373631;*/
 		/*font-weight: bold;*/
 		color: #000000;
-		background-color: #ffffff;
+		background-color: #FCFDF8;
 		/*text-align: center;*/
 		padding: 4px;
 		text-decoration: none;
 		text-transform: uppercase;
 	}
 
-	.main12 a:visited{
+	.main21 a:visited{
 		display: block;
 		width: 100px;
 /*		border-style: solid;
@@ -124,28 +137,28 @@
 		border-color: #373631;*/
 		/*font-weight: bold;*/
 		color: #000000;
-		background-color: #ffffff;
+		background-color: #FCFDF8;
 		/*text-align: center;*/
 		padding: 4px;
 		text-decoration: none;
 		text-transform: uppercase;
 	}
 
-	.main12 a:hover{
+	.main21 a:hover{
 		background-color: #dedede;
 		border-style: solid;
 		border-width: 1px;
 		border-color: #C9DEFB;
 	}	
 	
-	.main12 a:active{
+	.main21 a:active{
 		background-color: #dedede;
 		border-style: solid;
 		border-width: 1px;
 		border-color: #C9DEFB;
 	}
 
-	.main121{
+	.main211{
 		list-style-type: none;
 		width: 100px;
 		margin: 10px;
@@ -157,8 +170,12 @@
 		border-color: #C9DEFB;
 	}	
 
-	.main2{
-		width: auto;
+	.main3{
+		float: left;
+	}
+
+	.main4{
+		width: 155px;
 		height: 99%;			
 		margin: 2px;
 		float: right;
@@ -166,14 +183,14 @@
 		height: 100%;
 	}
 
-	.main21{
+	.main41{
 		width: auto;
 		color: #555555;
 	}
 
-	.main21 img{
-		width: 500px;
-		height: 500px;
+	.main41 img{
+		width: 150px;
+		height: 150px;
 	}
 
 	footer{
