@@ -1,3 +1,7 @@
+	div{
+		padding: 5px;
+	}	
+
 	header{
 		width: 99%;
 		margin: 2px;
@@ -17,53 +21,6 @@
 		float: right;	
 	}
 
-	.main1{
-		width: 500px;
-		margin: 2px;
-		padding: 2px;
-		float: left;
-	}
-	div{
-		padding: 5px;
-	}
-	.main11{
-		padding-left: 18px;
-		width: auto;
-/*		border-bottom-style: dotted;
-		border-bottom-width: 2px;
-		border-bottom-color: #C9DEFB;	*/
-	}
-/*	a:link {
-		color: #333333;
-		text-decoration:none;
-	}
-	a:visited {
-		color: #333333;
-		text-decoration:none;
-	}
-	a:hover {
-		color: #ff3300;
-		text-decoration:underline;
-	}
-	a:active {
-		color: #ff3300;
-		text-decoration:underline;
-	}*/
-	
-	.main2{
-		width: auto;
-		height: 99%;			
-		margin: 2px;
-		float: right;
-		padding: 2px;
-		height: 100%;
-	}
-
-	.main22{
-		width: auto;
-		color: #555555;
-	}
-
 	main{
 		width: 99%;
 		margin: 2px;
@@ -74,38 +31,19 @@
 		float: left;
 		clear: left;	
 	}
-
-	img{
+	.main1{
 		width: 500px;
-		height: 500px;
-	}
-	
-	footer{
-		width: 99%;
 		margin: 2px;
-		border-style: solid;
-		border-width: 2px;
-		border-color: #C9DEFB;
 		padding: 2px;
 		float: left;
-		clear: left;		
 	}
 
-	.footer11{
-		margin: 0px;
-
-	}
-
-	.main121{
-		list-style-type: none;
-		width: 100px;
-		margin: 10px;
-		padding: 0;
-		overflow: hidden;
-		background-color: #dedede;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #C9DEFB;
+	.main11{
+		padding-left: 18px;
+		width: auto;
+/*		border-bottom-style: dotted;
+		border-bottom-width: 2px;
+		border-bottom-color: #C9DEFB;	*/
 	}
 
 	.main11 a:link{
@@ -154,6 +92,14 @@
 		border-color: #C9DEFB;*/
 	}
 			
+	.main111{
+		list-style-type:none;
+		display:inline;
+	}
+
+	.main1111{
+		float: left;
+	}
 
 	.main12 a:link{
 		display: block;
@@ -199,11 +145,54 @@
 		border-color: #C9DEFB;
 	}
 
-	.main111{
-		list-style-type:none;
-		display:inline;
+	.main121{
+		list-style-type: none;
+		width: 100px;
+		margin: 10px;
+		padding: 0;
+		overflow: hidden;
+		background-color: #dedede;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #C9DEFB;
+	}	
+
+	.main2{
+		width: auto;
+		height: 99%;			
+		margin: 2px;
+		float: right;
+		padding: 2px;
+		height: 100%;
 	}
 
-	.main1111{
-		float: left;
+	.main21{
+		width: auto;
+		color: #555555;
 	}
+
+	.main21 img{
+		width: 500px;
+		height: 500px;
+	}
+
+	footer{
+		width: 99%;
+		margin: 2px;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #C9DEFB;
+		padding: 2px;
+		float: left;
+		clear: left;		
+	}
+
+	.footer11{
+		margin: 0px;
+
+	}
+
+
+
+
+
