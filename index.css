@@ -33,7 +33,7 @@
 	}
 
 	.main1{
-		width: 500px;
+		width: 600px;
 		margin: 2px;
 		padding: 2px;
 		float: left;
@@ -41,10 +41,10 @@
 
 	.main11{
 		padding-left: 0;
+		display: block;
 	}
 
 	.main11 a:link{
-		display: block;
 		width: 100px;
 		color: #000000;
 		background-color: #dedede;
@@ -54,7 +54,6 @@
 	}
 
 	.main11 a:visited{
-/*		display: block;*/
 		width: 100px;
 		color: #000000;
 		background-color: #dedede;
@@ -75,13 +74,12 @@
 			
 	.main111{
 		list-style-type: none;
-		width: 400px;
-		height: 50px;
-		margin: 10px;
+		width: 600px;
+		margin: 0;
 		padding: 0;
 		overflow: hidden;
-		display:inline;
-		font-size: 18px;
+		display: block;
+		font-size: 25px;
 		font-weight: 900;
 	}
 
