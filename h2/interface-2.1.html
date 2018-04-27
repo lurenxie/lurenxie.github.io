@@ -31,17 +31,14 @@
                 document.getElementById("result1").innerHTML = "数据输出：";
                 for (var i = inputvalue1; i <= inputvalue2; i++)
                     {
-                        for (var j = 2; j < i; j++)  
+                        for (var j = 2; j < i - 1; j++)  
                             {
-                                if (i % j != 0)
+                                if (i % j == 0)
                                 {   
-                                    break;
+									array1[n] = i;
+									n++;
                                 }
-                                else 
-                                {
-                                    array1[n] = i;
-                                    n++;
-                                }
+
                             }
                     }
                 for (var a = inputvalue1 ; a <= inputvalue2 ; a++)
