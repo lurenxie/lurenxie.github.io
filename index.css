@@ -5,8 +5,9 @@ body {
 	height: 100%;
 }
 .windowsbox {
-	width: auto;
+	max-width: 1000px;
 	height: 100%;
+	margin: auto;
 /*     撑开坍塌的父div*/
     overflow: hidden;
     zoom:1;	
@@ -14,25 +15,36 @@ body {
 }
 
 .leftbox {
-	width: 20%;
+	width: 17%;
 	height: 100%;
 	background-color: #24282C;
 	float: left;
 }
 	.mynamebox {
-		height: 10%;
+		height: 6%;
 		background-color: #3AB0FF;
 		color: #ffffff;
+		position: relative;
 /*		margin: 15px;*/
 /*		padding: 15px 0px 15px 15px;*/
 	}
-		.mynamebox p {
-			padding-left: 15px;
-			padding-right: 15px;			
-			background-color: #3AB0FF;
-			color: #ffffff;
-			margin: 0px;
+		.arnameboxp{
+			height: 21px;
+			position: absolute;
+			top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
 		}
+
+			.mynamebox p {
+				padding-left: 15px;
+				padding-right: 15px;			
+				background-color: #3AB0FF;
+				color: #ffffff;
+				margin: 0px;
+			}
 	.searchbox {
 		background-color: #373D41;;
 		color: #ffffff;
@@ -40,11 +52,12 @@ body {
 	}	
 		.searchbox input {
 			background-color: #ffffff;
-			color: #ffffff;		
-			width: 170px;
+			color: #ffffff;	
+			height: 16px;
+			width: 100px;
 			border: 0;
-			padding: 10px 20px;
-			border-radius: 50px;
+			padding: 3px;
+			border-radius: 20px;
 			outline: none;
 			color: #999;			
 /*
@@ -68,12 +81,15 @@ body {
 	}
 
 .topbox {
-	width: 80%;
-	height: 10%;
+	width: 83%;
+	height: 6%;
 	background-color: #279CEB;
 	float: left;
 }
 	.artypeul {
+		height: 100%;
+		margin: 0;
+		padding: 0;
 		list-style-type: none;
 		color: #ffffff;
 		/*     撑开坍塌的父div*/
@@ -82,9 +98,19 @@ body {
 		float: left;
 	}
 		.artypeul li {
-			padding-left: 15px;
-			padding-right: 15px;
+			width: 32px;
+			height: 100%;
+			position: relative;
+			padding-left: 10px;
+			padding-right: 10px;
 	}
+
+			.artypeul li a {
+				display: block;
+				text-align:center;
+				height: 45.55px;
+				line-height: 45.55px;
+			}
 
 
 
@@ -100,7 +126,7 @@ body {
 	}
 
 .centrebox {
-	width: 80%;
+	width: 83%;
 	height: 90%;
 	background-color: aqua;
 	float: left;
@@ -109,12 +135,11 @@ body {
 
 
 		.play {
-			width: 1000px;
-			height: 486px;
+			width: 830px;
+			height: 403px;
 			overflow: hidden;
 			position: relative;
-/*			margin: 0px auto 0;*/
-			margin: 0;
+			margin: auto;
 		}	
 
 		.play .text {
@@ -182,21 +207,22 @@ body {
 		.play ul {
 			position: absolute;
 			z-index: 1;
-			padding: 0;			
+			padding: 0;
+			margin: 0;
 			left: 0;
 			top: 0;
 		}
 
 		.play ul li {
-			width: 1000px;
-			height: 486px;
+			width: 830px;
+			height: 403px;
 			float: left;
 		}
 
 		.play ul img {
 			float: left;
-			width: 1000px;
-			height: 486px;
+			width: 830px;
+			height: 403px;
 		}
 
 
