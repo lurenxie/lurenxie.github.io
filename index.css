@@ -1,186 +1,256 @@
-	body {
-		background-color: #FCFDF8;
-	}
+html {
+	height: 100%;
+}
 
-	header {
-		width: 99%;
-		margin: 2px;
+body {
+	/*		background-color: #444444;*/
+	height: 98%;
+}
+
+.windowsbox {
+	max-width: 800px;
+	height: 98%;
+	background-color: #444444;
+	margin: auto;
+	border: 0;
+	padding: 3px;
+	border-radius: 15px;
+	outline: none;
+	color: #999;
+	/*     撑开坍塌的父div*/
+	overflow: hidden;
+	zoom: 1;
+
+}
+
+header {
+	width: 99%;
+	margin: 0;
+	/*
 		border-style: solid;
 		border-width: 2px;
 		border-color: #C9DEFB;
-		padding: 2px;
-		float: left;
-	}
+*/
+	padding: 0;
+	float: left;
+}
 
-	.header1 {
-		margin-left: 18px;
-		float: left;
-	}
+.header1 {
+	margin-left: 18px;
+	color: #cccccc;
+	float: left;
+}
 
-	.header2 {
+.header2 {
 
-		float: right;
-	}
+	float: right;
+}
 
-	main {
-		width: 99%;
-		margin: 2px;
+main {
+	width: 99%;
+	margin: 2px;
+	/*
 		border-style: solid;
 		border-width: 2px;
 		border-color: #C9DEFB;
-		padding: 2px;
-		float: left;
-		clear: left;
-	}
+*/
+	padding: 2px;
+	float: left;
+	clear: left;
+}
 
-	.main1 {
-		width: 600px;
-		margin: 2px;
-		padding: 2px;
-		float: left;
-	}
+.main1 {
+	width: 100%;
+	background-color: #555555;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
 
-	.main11 {
-		padding-left: 0;
-		display: block;
-	}
+.main11 {
+	padding-left: 0;
+}
 
-	.main11 a:link {
-		width: 100px;
-		color: #000000;
-		background-color: #dedede;
-		padding: 4px;
-		text-decoration: none;
-		text-transform: uppercase;
-	}
 
-	.main11 a:visited {
-		width: 100px;
-		color: #000000;
-		background-color: #dedede;
-/*
+.main11 a:link {
+	width: 100px;
+	color: #999;
+	background-color: #dedede;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.main11 a:visited {
+	width: 100px;
+	color: #999;
+	background-color: #555;
+	/*
 		color: #ffffff;
 		background-color: #222222;
 */
-		padding: 4px;
-		text-decoration: none;
-		text-transform: uppercase;
-	}
+	padding: 4px;
+	/*		定义无下划线*/
+	text-decoration: none;
+	/*		定义仅有大写字母*/
+	text-transform: uppercase;
+}
 
-	.main11 a:hover {
-		color: #ffffff;
-		background-color: #222222;
-	}
+.main11 a:hover {
+	color: #ffffff;
+	background-color: #3c3c3c;
+}
 
-	.main11 a:active {
-		color: #ffffff;
-		background-color: #222222;
-	}
+.main11 a:active {
+	color: #ffffff;
+	background-color: #3c3c3c;
+}
 
-	.main111 {
-		list-style-type: none;
-		width: 600px;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		display: block;
-		font-size: 25px;
-		font-weight: 900;
-	}
+.main111 {
+	list-style-type: none;
+	width: 600px;
+	margin: 0;
+	padding-left: 200px;
+	/*		padding: 10px 0px 10px 0px;*/
+	overflow: hidden;
+	zoom: 1;
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+}
 
-	.main1111 {
-		float: left;
-	}
+.main1111 {
+	float: left;
+	width: 100px;
+	padding: 0;
+	/*		margin: 20px 20px 20px 0px;*/
+	/*		padding: 20px 20px 20px 0px;*/
+	background-color: #555;
+}
 
-	.main2 {
-		width: 120px;
-		margin: 2px;
-		padding: 2px;
-		float: left;
-		clear: left;
-	}
+.main1111 a {
+	display: block;
+	text-align: center;
+	height: 45.55px;
+	line-height: 45.55px;
+	padding: 0;
+}
 
-	.main21 a:link {
-		display: block;
-		width: 100px;
-		color: #000000;
-		background-color: #FCFDF8;
-		padding: 4px;
-		text-decoration: none;
-		text-transform: uppercase;
-	}
+.main2 {
+/*	width: 120px;*/
+/*	margin: 2px;*/
+/*	padding: 2px;*/
+	float: left;
+	clear: left;
+	background-color: #555555;
+}
+/*未访问*/
+.main21 a:link {
+/*	display: block;*/
+/*	width: 100px;*/
+	color: #999;
+	background-color: #555;
+/*	padding: 4px;*/
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/*已访问*/
+.main21 a:visited {
+/*	display: block;*/
+/*	width: 100px;*/
+	color: #999;
+	background-color: #555;
+/*	padding: 4px;*/
+	text-decoration: none;
+	text-transform: uppercase;
+}
+/*悬浮*/
+.main21 a:hover {
+	color: #ffffff;
+	background-color: #3c3c3c;
+/*
+	border-style: solid;
+	border-width: 1px;
+*/
+/*	border-color: #C9DEFB;*/
+}
+/*活动链接*/
+.main21 a:active {
+	color: #ffffff;
+	background-color: #3c3c3c;
+/*
+	border-style: solid;
+	border-width: 1px;
+*/
+/*	border-color: #C9DEFB;*/
+}
 
-	.main21 a:visited {
-		display: block;
-		width: 100px;
-		color: #000000;
-		background-color: #FCFDF8;
-		padding: 4px;
-		text-decoration: none;
-		text-transform: uppercase;
-	}
+.main211 {
+	list-style-type: none;
+	background-color: #555;
+	width: auto;
+	margin: 0;
+	padding: 0;
+/*	超出内容被修剪并且其余内容不可见*/
+	overflow: hidden;
+/*
+	border-style: solid;
+	border-width: 1px;
+	border-color: #C9DEFB;
+*/
+}
 
-	.main21 a:hover {
-		background-color: #dedede;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #C9DEFB;
-	}
+.main2111 {
+	width: auto;
+}
 
-	.main21 a:active {
-		background-color: #dedede;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #C9DEFB;
-	}
 
-	.main211 {
-		list-style-type: none;
-		width: 100px;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: #dedede;
-		border-style: solid;
-		border-width: 1px;
-		border-color: #C9DEFB;
-	}
+.main2111 a {
+	display: block;
+	text-align: center;
+	height: 45.55px;
+	line-height: 45.55px;
+	padding: 0;
+}
 
-	.main3 {
-		float: left;
-	}
+.main3 {
+	float: left;
+	width: auto;
+}
 
-	.main4 {
-		width: 155px;
-		height: 99%;
-		margin: 2px;
-		float: right;
-		padding: 2px;
-		height: 100%;
-	}
+.main4 {
+	width: 155px;
+	height: 99%;
+	margin: 2px;
+	float: right;
+	padding: 2px;
+	height: 100%;
+}
 
-	.main41 {
-		width: auto;
-		color: #555555;
-	}
+.main41 {
+	width: auto;
+	color: #555555;
+}
 
-	.main41 img {
-		width: 150px;
-		height: 150px;
-	}
+.main41 img {
+	width: 150px;
+	height: 150px;
+}
 
-	footer {
-		width: 99%;
-		margin: 2px;
+footer {
+	width: 99%;
+	margin: 2px;
+	/*
 		border-style: solid;
 		border-width: 2px;
 		border-color: #C9DEFB;
-		padding: 2px;
-		float: left;
-		clear: left;
-	}
+*/
+	padding: 2px;
+	float: left;
+	clear: left;
+}
 
-	.footer11 {
-		margin: 0px;
+.footer11 {
+	margin: 0px;
 
-	}
+}
