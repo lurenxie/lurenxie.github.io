@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<META HTTP-EQUIV="Refresh" CONTENT="311" />
+</head>
+
+
+
+<body>
+	<div>
+		<p>请输入要累加的数a</p>
+		<input type="text" id="input1" name="firstnum" value="0"> 
+        <p>请输入累加次数n</p>
+		<input type="text" id="input2" name="larstnum" value="0">
+		<p>点击输出</p>
+		<button type "button" onclick="butjs()">输出</button>
+		<p id="result1">输出s</p>
+	</div>
+
+	<script> 
+		function butjs() {
+//            alert("断点");
+			var inputvalue1 = document.getElementById("input1").value;
+			var inputvalue2 = document.getElementById("input2").value;
+			inputvalue1 = Number(inputvalue1);
+			inputvalue2 = Number(inputvalue2);
+			var array1 = new Array();
+			var array2 = new Array();
+			var b = 0;
+			var c = inputvalue1;
+			document.getElementById("result1").innerHTML = "输出：s = ";        
+            for (var a = 1 ; a <= inputvalue2 ; a++) {
+                    b = inputvalue1 + b;
+                    inputvalue1 = inputvalue1 * 10; 
+                    inputvalue1 = inputvalue1 + c;
+            }
+                document.getElementById("result1").innerHTML += b;
+		}
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
