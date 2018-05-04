@@ -70,14 +70,15 @@ main {
 
 .main11 {
 	padding-left: 0;
+    height: 58.547px;
 }
 
 
 .main11 a:link {
 	width: 100px;
 	color: #999;
-	background-color: #dedede;
-	padding: 4px;
+	background-color: #555;
+/*	padding: 4px;*/
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -90,7 +91,7 @@ main {
 		color: #ffffff;
 		background-color: #222222;
 */
-	padding: 4px;
+/*	padding: 4px;*/
 	/*		定义无下划线*/
 	text-decoration: none;
 	/*		定义仅有大写字母*/
@@ -129,12 +130,67 @@ main {
 	background-color: #555;
 }
 
+.clearbox{
+    float: left;
+    clear: left;
+}
+
+.main1112 {
+    float: left;
+/*    clear: left;*/
+    width: 100px;
+    height: 5px;
+/*    background: red;*/
+}
+
+.main11121 {
+    float: left;
+    width: 100px;
+    height: 5px;
+/*    background: red;*/
+}
+
+.main111211 {
+    float: left;
+    width: 100px;
+    height: 5px;
+    background: #3c3c3c;
+}
+
+.main11122 {
+    float: left;
+    width: 100px;
+    height: 5px;
+/*    background: red;*/
+}
+
+.main111221 {
+    float: left;
+    width: 100px;
+    height: 5px;
+    background: #3c3c3c;
+}
+
+.main11123 {
+    float: left;
+    width: 100px;
+    height: 5px;
+/*    background: red;*/
+}
+
+.main111231 {
+    float: left;
+    width: 100px;
+    height: 5px;
+    background: #3c3c3c;
+}
+
 .main1111 a {
 	display: block;
 	text-align: center;
 	height: 45.55px;
 	line-height: 45.55px;
-	padding: 0;
+	padding: 4px 0 4px 0;
 }
 
 .main2 {
