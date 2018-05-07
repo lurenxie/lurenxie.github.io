@@ -28,9 +28,9 @@
           background: #555;
      }
 
-     #nav_ul_first {
+     /*#nav_ul_first {
           min-width: 500px;
-     }
+     }*/
 
      nav ul ul {
           display: none;
