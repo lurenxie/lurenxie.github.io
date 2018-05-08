@@ -58,16 +58,44 @@
           font-family: "微软雅黑";
      }
 
-     #u_gongju {
+     #target_gongju:target, #target_shijie:target, #target_shenmei:target, #target_shuchu:target {
+          display: block;     
+          /*background: #3c3c3c;*/
+          /*color: #fff;*/
+     }
+
+     #target_gongju:target a, #target_shijie:target a, #target_shenmei:target a, #target_shuchu:target a {
+         color: #fff;
+    }
+    nav ul li:active ul {
+     display: block;
+}
+
+
+/*    nav ul li:hover ul {
+     display: block;
+     }*/
+
+     /*nav ul li:hover {*/
+          /*渐变效果*/
+          /*background: linear-gradient(to bottom, #555, #3c3c3c);*/
+/*          background: #3c3c3c;
+     }
+
+     nav ul li:hover a {
+          color: #fff;
+     }*/
+
+     #target_gongju {
           left: -150px;
      }
-     #u_shijie {
+     #target_shijie {
           left: -120px;
      }
-     #u_shenmei {
+     #target_shenmei {
           left: -210px;
      }
-     #u_shuchu {
+     #target_shuchu {
           left: -150px;
      }
      nav ul ul {
@@ -89,11 +117,6 @@
      }
 
      nav ul ul li a:hover {
-          color: #fff;
-          background: #4b545f;
-     }
-
-     nav ul li a:hover {
           color: #fff;
           background: #4b545f;
      }
