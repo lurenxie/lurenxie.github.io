@@ -5,6 +5,8 @@ function f_gongju() {
 	document.getElementById('u_shijie').style.display='none';
 	document.getElementById('u_shenmei').style.display='none';
 	document.getElementById('u_shuchu').style.display='none';
+	document.getElementById('m_intro').style.display='none';
+	document.getElementById('m_gongju_intro').style.display='block';
 	document.getElementById('u_gongju').style.background='#3c3c3c';	
 	document.getElementById('m_gongju').style.background='#3c3c3c';
 	document.getElementById('m_shijie').style.background='#555';
