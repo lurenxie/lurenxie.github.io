@@ -91,13 +91,13 @@
           }
 
           nav ul ul li a:hover {
-               color: #fff;
-               background: #4b545f;
+               color: #ccc;
+               background: #333333;
           }
 
           nav ul li a:hover {
                color: #fff;
-               background: #4b545f;
+               background: #3c3c3c;
           }
 
           nav ul ul ul {
