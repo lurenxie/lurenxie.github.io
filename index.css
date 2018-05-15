@@ -112,7 +112,7 @@
                width: 501.60px;
                /*盒子相对于父容器水平居中*/
                margin: 0 auto;
-               /*box-shadow:0px 0px 20px #fff;*/
+               box-shadow:0px 0px 20px #fff;
                /*css3阴影兼容性问题不太方便，此处只能兼容火狐，ie、Sofari不行*/
                /*-moz-box-shadow:0px 0px 20px #fff;/*firefox  */
                /*-webkit-box-shadow:0px 0px 20px #fff;/*webkit*/  
