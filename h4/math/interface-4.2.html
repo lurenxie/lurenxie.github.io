@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<META HTTP-EQUIV="Refresh" CONTENT="311" />
+</head>
+
+
+
+<body>
+	<div>
+		<button type "button" ><a href="../../index.html" >返回</a></button>
+		<p>请输入需要分解的整数</p>
+		<input type="text" id="input1" name="firstnum" value="1"> 
+<!--
+		<p>终止数</p>
+		<input type="text" id="input2" name="larstnum" value="10">
+-->
+		<p>点击分解</p>
+		<button type "button" onclick="butjs()">分解</button>
+		<p id="result1">数据输出</p>
+	</div>
+
+	<script>
+		function butjs() {
+            alert("断点");
+			var inputvalue1 = document.getElementById("input1").value;
+//			var inputvalue2 = document.getElementById("input2").value;
+			inputvalue1 = Number(inputvalue1);
+//			inputvalue2 = Number(inputvalue2);
+			var array1 = new Array();
+//			var array2 = new Array();
+			var b = 0;
+//			var x = 0;
+//            inputvalue1 = 100;
+			document.getElementById("result1").innerHTML = "数据输出：";
+            if (ifprime(inputvalue1) == 0) {
+//                alert("这个数是质数");
+                document.getElementById("result1").innerHTML += "该数为质数";
+            }
+            if (inputvalue1 == 1) {
+//                alert("这个数是1");
+                document.getElementById("result1").innerHTML += "该数为1";
+            }           
+            
+            for (var a = 2 ; a < inputvalue1 ; ) {
+                if (inputvalue1 % a == 0) {
+                    inputvalue1 = inputvalue1 / a;
+                    array1[b] = a;
+                    b++;
+                    if (ifprime(inputvalue1) == 0) {
+                        array1[b] = inputvalue1;
+                        b++;
+//                        alert("断点");
+                        break;
+                    }
+                }
+                else {
+                    a++;
+                }
+            }
+            
+            for (var c = 0 ; c < array1.length ; c++){
+                document.getElementById("result1").innerHTML += array1[c];
+                if(c != array1.length - 1) {
+                    document.getElementById("result1").innerHTML += " * ";
+            }
+		}
+        
+        function ifprime(x) {
+            if(x == 2) {
+                return 0;
+            }
+            else {
+                
+                for (var a = 2 ; a < x ; a++) {
+                    if (x % a == 0) {
+    //                    alert("不是质数");                  
+                        return 1;
+                    }
+                    if (a == x-1) {
+    //                    alert("是质数");
+                        return 0;
+                    }
+                }
+            }
+        }
+        }
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

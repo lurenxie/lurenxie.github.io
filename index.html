@@ -4,101 +4,109 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<META HTTP-EQUIV="Refresh" CONTENT="311" />
-  	<link rel="stylesheet" href="index.css" type="text/css" />
-  	<script type="text/javascript" src="index.js"></script>
-  	<title>小红书_标记我的生活</title>
-
+	<title>贯彻爱与真实的邪恶</title>
+  <link rel="stylesheet" href="index.css" type="text/css" />
+  <script type="text/javascript" src="index.js"></script>
 </head>
 
-<body onload="body_main()">
-	<nav>
-		<div id="nav_content">
-			<img src="images/xiaohongshulogo.png" title="小红书logo" class="logo">
-			<div id="menu_nav">
-				<a href="#" title="小红书_首页"><span>首页</span></a>
-				<a href="#" title="小红书_社区精选"><span>社区精选</span></a>
-				<a href="#" title="小红书_媒体报道"><span>媒体报道</span></a>
-				<a href="#" title="小红书_加入我们"><span>加入我们</span></a>
-				<a href="#" title="小红书_招商合作"><span>招商合作</span></a>
-			</div>
-			<div id="search_nav">
-				<input type="text" name="keyword" placeholder="搜索好生活">
-				<!-- <a target="" ><i></i></a> -->
-			</div>
-		</div>	
-	</nav>
-	<main>
-		<div id="title_item">
-			<div id="title_left">
-				<h1>小红书</h1>
-				<div id="title_auto">
-					<span id="title_auto_con">|</span>
-				</div>
-				<img src="images/title_left.jpg">
-				<div id="title_button">
-					<a href="#"><span>ios 版</span></a>
-					<a href="#"><span>Android 版</span></a>
-				</div>
-			</div>
-			<div id="title_right">
-				<div>
-					<div>
-						<ul>
-							<li>
-								<img src="images/title_right.png">								
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="red_item">
-			<div id="red_item_box">
-				<div id="red_left">
-					<div class="red_left_box">
-						<div class="red_num">01</div>
-						<div class="red_box">
-							<span id="red_att">关注 Follow</span>
-							<span>
-								<progress value="0" max="100" id="pg1">
-							</span>
-							<span style="font-size: 16px;">日常点滴，不再错过</span>
-						</div>
-					</div>
-					<div class="red_left_box">
-						<div class="red_num">02</div>
-						<div class="red_box">
-							<span>发现 Explore</span>
-							<span>
-								<progress value="0" max="100" id="pg2">
-							</span>
-							<span style="font-size: 16px;">发现世界，分享生活</span>
-						</div>
-					</div>
-					<div class="red_left_box">
-						<div class="red_num">03</div>
-						<div class="red_box">
-							<span>购买 Store</span>
-							<span>
-								<progress value="0" max="100" id="pg3">
-							</span>
-							<span style="font-size: 16px;">爆款小众，应有尽有</span>
-						</div>
-					</div>
-				</div>
-				<div id="red_right">
-					<div id="red_right2">
-						<div id="red_right3">
-							<img src="images/phone.bmp">
-						</div>
-					</div>					
-				</div>
-			</div>
-		</div>
-		<div id="gray_item"></div>
-		<div id="vedio_item"></div>
-	</main>
+<body>
+<!--     <header>
+        <div class="header1">
+            <h1>路人蟹他妈的周六正常上班！！！</h1>
+        </div>
+      </header> -->
+      <nav>
+        <ul>
+         <li id="m_gongju"><a href="#" onclick="f_gongju()">工具站001</a>
+          <ul id="u_gongju" class="ul-rotateinLT">
+           <li><a href="http://39.108.83.210/">懒得个站</a></li>
+           <li><a href="http://nec.netease.com/">前端规范</a></li>
+           <li><a href="https://www.csdn.net/">CSDN</a></li>
+           <li><a href="http://www.runoob.com/">菜鸟教程</a></li>
+           <li><a href="http://www.w3school.com.cn/">w3cschool</a></li>
+           <li><a href="https://github.com/">GitHub</a></li>
+           <li><a href="https://blog.csdn.net/MOY37RQW1JarN33BgZk/article/details/79991145">HTML学习路线</a>
+           </ul>
+         </li>
 
-	<footer></footer>	
-	<div id="ewm"></div>
+         <li id="m_shijie"><a href="#" onclick="f_shijie()">世界的主宰</a>
+          <ul id="u_shijie" class="ul-rotateinLT">
+            <li><a href="网址">魔兽争霸</a></li>
+          </ul>
+        </li>
+
+        <li id="m_shenmei"><a href="#" onclick="f_shenmei()">令人绝望的审美</a>
+          <ul id="u_shenmei" class="ul-rotateinLT">
+           <li><a href="http://www.csszengarden.com/tr/zh-cn/">禅意花园</a></li>
+           <li><a href="http://news.ifeng.com/photo/special/living-as-flowers/">像花儿一样</a></li>
+           <li><a href="https://codepen.io/2014/popular/pens/">The HEARTED of 2014</a></li>
+           <li><a href="https://codepen.io/2015/popular/pens/">The HEARTED of 2015</a></li>
+           <li><a href="https://codepen.io/nicklassandell/pen/soAyr">bengbeng2框架范本</a></li>
+           <li><a href="https://codepen.io/designcouch/pen/obvKxm">bengbeng2弹出效果范本</a></li>
+           <li><a href="https://codepen.io/AndreCortellini/details/kaCEf/">主页框架</a></li>
+         </ul>
+       </li>
+       
+       <li id="m_shuchu"><a href="#" onclick="f_shuchu()">下水道输出</a>
+        <ul id="u_shuchu" class="ul-rotateinLT">
+         <li><a href="h4/bengbeng2/bengbeng2.html">崩崩2的步枪</a></li>
+         <li><a href="h4/math/interface-4.1.html">素数自动求解</a></li>
+         <li><a href="h4/math/interface-4.2.html">整数分解因数</a></li>
+         <li><a href="h4/math/interface-4.3.html">a累加n次结果s</a></li>
+       </ul>
+     </li>
+   </ul>
+ </nav>
+ <main>
+  <div id="m_intro">
+    <h1>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+      一切开始的地方
+    </h1>
+  </div>
+  <div id="m_gongju_intro">
+    <h3>懒得个站</h3>
+    <p>额，懒得用来测试他的服务器的一个乱七八糟堆起来的玩意儿</p>
+    <h3>前端规范</h3>
+    <p>貌似是网易旗下的一个组织。主打是代码规范，适合记性不好的强迫症患者。除此之外还有些范例之类的东西，可能没收到什么重视，东西不多，好用的有个css动画库，有演示，可以很容易找到自己想要的效果，不过也不多</p>
+    <h3>CSDN</h3>
+    <p>每次查代码相关资料都会有CSDN的技术博客，还有些文章下载之类的，资料确实比较多，就注册了，还充了会员。除了资料查找就是看看最新技术，貌似更新比较勤快，还有就是准备在上面码些技术博客</p>
+    <h3>菜鸟教程</h3>
+    <p>菜鸟教程，内容比较杂，网站看起来也比较乱，用的也不多，不过有些w3c上面没有的都会来这里找找</p>
+    <h3>w3cschool</h3>
+    <p>页面简洁，可以即时点击看效果，前端技术点该有的都有，比较全面，就是范例有点少。总的来说是目前为止最值得推荐的前端学习站</p>
+    <h3>GitHub</h3>
+    <p>非常幸运的从一开始就学会了怎么用，虽然刚学比较麻烦，不过带来的便利性真是无所能敌</p>
+    <h3>HTML学习路线</h3>
+    <p>某技术大牛写的前端学习路线，包括HTML、css、js，不装逼不摆谱，由浅入深，一步步，怎么学，在哪里学，需要注意什么，有哪些旁系末枝的技术点，乃至各个程度在行业中是什么水平，一系列下来介绍的相当详细，非常之有水平。达到了既不劝退，也不盲目哄人的终极水平。目前见过的最好的学习路线，强推</p>
+  </div>
+
+  <div id="m_shijie_intro">
+    <p>有空再琢磨在这里放啥</p>
+  </div>
+
+  <div id="m_shenmei_intro">
+    <h3>懒得个站</h3>
+    <p>额，懒得用来测试他的服务器的一个乱七八糟堆起来的玩意儿</p>
+    <h3>懒得个站</h3>
+    <p>额，懒得用来测试他的服务器的一个乱七八糟堆起来的玩意儿</p>
+    <h3>懒得个站</h3>
+    <p>额，懒得用来测试他的服务器的一个乱七八糟堆起来的玩意儿</p>
+    <h3>懒得个站</h3>
+    <p>额，懒得用来测试他的服务器的一个乱七八糟堆起来的玩意儿</p>
+  </div>
+
+  <div id="m_shuchu_intro">
+    <h3>懒得个站</h3>
+    <p>额，懒得用来测试他的服务器的一个乱七八糟堆起来的玩意儿</p>
+  </div>
+</main>
+
+
 </body>
+
+</html>

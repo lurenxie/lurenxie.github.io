@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <META HTTP-EQUIV="Refresh" CONTENT="311" />
+    <title>贯彻爱与真实的邪恶</title>
+
+    <style>
+    nav {
+        margin:100px auto;
+        text-align:center;
+        margin-bottom: 0;
+    }
+    nav ul {
+        list-style-type: none;
+        padding:0 20px;
+        display:inline-table;
+        position:relative;  
+        background: #999;
+    }
+    nav ul ul {
+        display:none;
+    }
+    nav ul li {
+        float:left; 
+    }
+    nav ul::after {
+        content:"";
+        display:block;
+        clear:both;
+    }
+    nav ul li a {
+        display:block;
+        padding:25px 40px;
+        color:#000;
+        text-decoration:none;
+        font-family:"微软雅黑";
+    }
+
+    nav ul li:hover {
+        background:linear-gradient(to bottom,#4f5964,#5f6975);
+    }
+    nav ul li:hover a {
+        color:#FFF;
+    }
+
+    #target_1:target, #target_2:target, #target_3:target, #target_4:target {
+      display: block;     
+  }
+
+  nav ul ul {
+    background:#5f6975;
+    border-radius:0;
+    position:absolute;
+    top:100%;
+    padding:0;
+}
+nav ul ul li {
+    float:none;
+    border-top:1px solid #6b727c;
+    border-bottom:1px solid #575f6a;
+}   
+nav ul ul li a:hover {
+    background:#4b545f;
+}
+</style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+          <li><a href="#target_1">导航一</a>
+            <ul id="target_1">
+                <li><a href="#">二级导航</a></li>
+                <li><a href="#">二级导航</a></li>
+                <li><a href="#">二级导航</a></li>
+                <li><a href="#">二级导航</a></li>
+            </ul>
+        </li>
+        <li><a href="#target_2">导航二</a>
+            <ul id="target_2">
+                <li><a href="#">二级导航</a></li>
+                <li><a href="#">二级导航</a></li>
+                <li><a href="#">二级导航</a></li>
+            </ul>
+        </li>
+        <li><a href="#target_3">导航三</a>
+            <ul id="target_3">
+                <li><a href="#">二级导航</a></li>
+                <li><a href="#">二级导航</a></li>
+            </ul>
+        </li>
+        <li><a href="#target_4">导航四</a>
+            <ul id="target_4">
+                <li><a href="#">二级导航</a></li>
+            </ul> 
+        </li>
+    </ul>
+</nav>  
+</body>
+
+</html
