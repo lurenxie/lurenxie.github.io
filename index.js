@@ -12,6 +12,11 @@ function f_gongju() {
 	document.getElementById('m_shijie').style.background='#555';
 	document.getElementById('m_shenmei').style.background='#555';
 	document.getElementById('m_shuchu').style.background='#555';
+
+	document.getElementById('m_gongju_intro').style.display='block';
+	document.getElementById('m_shijie_intro').style.display='none';
+	document.getElementById('m_shenmei_intro').style.display='none';
+	document.getElementById('m_shuchu_intro').style.display='none';
 }
 function f_shijie() {
 	// alert("断点");
@@ -25,6 +30,11 @@ function f_shijie() {
 	document.getElementById('m_shijie').style.background='#3c3c3c';
 	document.getElementById('m_shenmei').style.background='#555';
 	document.getElementById('m_shuchu').style.background='#555';
+
+	document.getElementById('m_gongju_intro').style.display='none';
+	document.getElementById('m_shijie_intro').style.display='block';
+	document.getElementById('m_shenmei_intro').style.display='none';
+	document.getElementById('m_shuchu_intro').style.display='none';	
 }
 function f_shenmei() {
 	// alert("断点");
@@ -38,6 +48,11 @@ function f_shenmei() {
 	document.getElementById('m_shijie').style.background='#555';
 	document.getElementById('m_shenmei').style.background='#3c3c3c';
 	document.getElementById('m_shuchu').style.background='#555';
+
+	document.getElementById('m_gongju_intro').style.display='none';
+	document.getElementById('m_shijie_intro').style.display='none';
+	document.getElementById('m_shenmei_intro').style.display='block';
+	document.getElementById('m_shuchu_intro').style.display='none';	
 }
 function f_shuchu() {
 	// alert("断点");
@@ -51,4 +66,9 @@ function f_shuchu() {
 	document.getElementById('m_shijie').style.background='#555';
 	document.getElementById('m_shenmei').style.background='#555';
 	document.getElementById('m_shuchu').style.background='#3c3c3c';
+
+	document.getElementById('m_gongju_intro').style.display='none';
+	document.getElementById('m_shijie_intro').style.display='none';
+	document.getElementById('m_shenmei_intro').style.display='none';
+	document.getElementById('m_shuchu_intro').style.display='block';	
 }
