@@ -25,6 +25,7 @@ function f_shijie() {
 	document.getElementById('u_gongju').style.display='none';
 	document.getElementById('u_shenmei').style.display='none';
 	document.getElementById('u_shuchu').style.display='none';
+	document.getElementById('m_intro').style.display='none';
 	document.getElementById('u_shijie').style.background='#3c3c3c';
 	document.getElementById('m_gongju').style.background='#555';
 	document.getElementById('m_shijie').style.background='#3c3c3c';
@@ -43,6 +44,7 @@ function f_shenmei() {
 	document.getElementById('u_gongju').style.display='none';
 	document.getElementById('u_shijie').style.display='none';
 	document.getElementById('u_shuchu').style.display='none';
+	document.getElementById('m_intro').style.display='none';
 	document.getElementById('u_shenmei').style.background='#3c3c3c';
 	document.getElementById('m_gongju').style.background='#555';
 	document.getElementById('m_shijie').style.background='#555';
@@ -61,6 +63,7 @@ function f_shuchu() {
 	document.getElementById('u_gongju').style.display='none';
 	document.getElementById('u_shijie').style.display='none';
 	document.getElementById('u_shenmei').style.display='none';
+	document.getElementById('m_intro').style.display='none';
 	document.getElementById('u_shuchu').style.background='#3c3c3c';
 	document.getElementById('m_gongju').style.background='#555';
 	document.getElementById('m_shijie').style.background='#555';

@@ -136,6 +136,17 @@
           display: none;
      }
 
+     #m_shijie_intro {
+          display: none;
+     }
+
+     #m_shenmei_intro {
+          display: none;
+     }
+
+     #m_shuchu_intro {
+          display: none;
+     }
 
 
      .ul-rotateinLT {
