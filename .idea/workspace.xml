@@ -4,6 +4,75 @@
     <list default="true" id="205a766d-41a1-4bd3-9a8b-c4942821db18" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/css/live2d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/js/live2d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/js/message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/message.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/model.moc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Breath Dere1.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Breath Dere2.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Breath Dere3.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Breath1.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Breath2.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Breath3.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Breath4.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Breath5.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Breath6.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Breath7.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Breath8.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Fail.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Sleeping.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Success.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Sukebei1.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Sukebei2.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Sukebei3.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Touch Dere1.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Touch Dere2.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Touch Dere3.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Touch Dere4.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Touch Dere5.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Touch Dere6.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Touch1.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Touch2.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Touch3.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Touch4.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Touch5.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/Touch6.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/motions/WakeUp.mtn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/bunny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/cake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/default-costume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/dress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/elementary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/fril.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/furisode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/halloween.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/hanbok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/healer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/kids.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/maid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/new2015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/nightsky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/pajamas-costume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/pajamas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/party.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/qipao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/ribbon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/sailor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/sakura.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/santa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/school-costume.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/school.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/sukumizu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/summer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/tirami.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/turtleneck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/winte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/winter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/witch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/live2d/model/Pio/textures/witchwhite.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+            <state relative-caret-position="255">
+              <caret line="125" column="63" selection-start-line="125" selection-start-column="63" selection-end-line="125" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -25,7 +94,39 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/live2d/live2d/js/message.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,15 +134,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/test1.html" />
+        <option value="$PROJECT_DIR$/live2d/css/live2d.css" />
+        <option value="$PROJECT_DIR$/live2d/js/message.js" />
+        <option value="$PROJECT_DIR$/index.css" />
+        <option value="$PROJECT_DIR$/live2d/live2d/js/message.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="456" />
-    <option name="y" value="100" />
-    <option name="width" value="1283" />
-    <option name="height" value="880" />
+    <option name="x" value="863" />
+    <option name="y" value="125" />
+    <option name="width" value="926" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="添加" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -55,6 +164,24 @@
               <item name="lurenxie.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="lurenxie.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lurenxie.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lurenxie.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="live2d" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lurenxie.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lurenxie.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="live2d" type="462c0819:PsiDirectoryNode" />
+              <item name="live2d" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lurenxie.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lurenxie.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="live2d" type="462c0819:PsiDirectoryNode" />
+              <item name="live2d" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -63,6 +190,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -92,18 +220,19 @@
       <updated>1536414610148</updated>
       <workItem from="1536414611580" duration="26000" />
       <workItem from="1536985519108" duration="92000" />
-      <workItem from="1551250573813" duration="155000" />
+      <workItem from="1551250573813" duration="5203000" />
+      <workItem from="1551255919461" duration="391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273000" />
+    <option name="totallyTimeSpent" value="5712000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="965" y="101" width="1283" height="880" extended-state="0" />
+    <frame x="863" y="125" width="926" height="775" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17429718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17342342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -130,10 +259,79 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live2d/js/live2d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret column="1021" lean-forward="true" selection-start-column="1021" selection-end-column="1021" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live2d/css/live2d.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live2d/js/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" selection-start-line="29" selection-end-line="32" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live2d/model/Pio/model.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/live2d/live2d/js/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="255">
+          <caret line="125" column="63" selection-start-line="125" selection-start-column="63" selection-end-line="125" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

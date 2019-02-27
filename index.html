@@ -8,21 +8,8 @@
 	<title>路人蟹</title>
   <link rel="stylesheet" href="index.css" type="text/css" />
   <script type="text/javascript" src="index.js"></script>
-    <link rel="stylesheet" href="/live2d/css/live2d.css" />
-
-
-
+    <link rel="stylesheet" href="live2d/live2d/css/live2d.css" />
 </head>
-
-<script type="text/javascript">
-    var message_Path = '/live2d/'
-    var home_Path = 'https://lurenxie.github.io/'
-</script>
-<script type="text/javascript" src="/live2d/js/live2d.js"></script>
-<script type="text/javascript" src="/live2d/js/message.js"></script>
-<script type="text/javascript">
-    loadlive2d("live2d", "/live2d/model/Pio/model.json");
-</script>
 
 <body>
 <!--     <header>
@@ -30,6 +17,11 @@
             <h1>路人蟹他妈的周六正常上班！！！</h1>
         </div>
       </header> -->
+<div id="landlord">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+    <div class="hide-button">隐藏</div>
+</div>
       <nav>
         <ul>
          <li id="m_gongju"><a href="#" onclick="f_gongju()">工具站001</a>
@@ -126,12 +118,15 @@
     <p>这是在懒得学Python的时候一个做的一些数学问题处理程序，很简单，做着玩儿的</p>   
   </div>
 </main>
-
-
-<div id="landlord">
-    <div class="message" style="opacity:0"></div>
-    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
-</div>
+<script type="text/javascript">
+    var message_Path = 'live2d/live2d/'
+    var home_Path = 'https://lurenxie.github.io/'  //此处修改为你的域名，必须带斜杠
+</script>
+<script type="text/javascript" src="live2d/live2d/js/live2d.js"></script>
+<script type="text/javascript" src="live2d/live2d/js/message.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "live2d/live2d/model/tia/model.json");
+</script>
 
 </body>
 
