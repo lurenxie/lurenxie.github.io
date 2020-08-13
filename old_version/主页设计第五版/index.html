@@ -1,0 +1,133 @@
+ <!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<META HTTP-EQUIV="Refresh" CONTENT="311" />
+	<title>路人蟹</title>
+  <link rel="stylesheet" href="index.css" type="text/css" />
+  <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="live2d/live2d/css/live2d.css" />
+</head>
+
+<body>
+<!--     <header>
+        <div class="header1">
+            <h1>路人蟹他妈的周六正常上班！！！</h1>
+        </div>
+      </header> -->
+<div id="landlord">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+    <div class="hide-button">隐藏</div>
+</div>
+      <nav>
+        <ul>
+         <li id="m_gongju"><a href="#" onclick="f_gongju()">工具站001</a>
+          <ul id="u_gongju" class="ul-rotateinLT">
+           <li><a href="http://39.108.83.210/">懒得个站</a></li>
+           <li><a href="http://nec.netease.com/">前端规范</a></li>
+           <li><a href="https://www.csdn.net/">CSDN</a></li>
+           <li><a href="http://www.runoob.com/">菜鸟教程</a></li>
+           <li><a href="http://www.w3school.com.cn/">w3cschool</a></li>
+           <li><a href="https://github.com/">GitHub</a></li>
+           <li><a href="https://blog.csdn.net/MOY37RQW1JarN33BgZk/article/details/79991145">HTML学习路线</a></li>
+           <li><a href="http://www.jq22.com/">jQurey插件</a></li>
+           </ul>
+         </li>
+
+         <li id="m_shijie"><a href="#" onclick="f_shijie()">世界的主宰</a>
+          <ul id="u_shijie" class="ul-rotateinLT">
+            <li><a href="网址">魔兽争霸</a></li>
+          </ul>
+        </li>
+
+        <li id="m_shenmei"><a href="#" onclick="f_shenmei()">令人绝望的审美</a>
+          <ul id="u_shenmei" class="ul-rotateinLT">
+           <li><a href="http://www.csszengarden.com/tr/zh-cn/">禅意花园</a></li>
+           <li><a href="http://news.ifeng.com/photo/special/living-as-flowers/">像花儿一样</a></li>
+           <li><a href="https://codepen.io/2014/popular/pens/">The HEARTED of 2014</a></li>
+           <li><a href="https://codepen.io/2015/popular/pens/">The HEARTED of 2015</a></li>
+           <li><a href="https://codepen.io/nicklassandell/pen/soAyr">bengbeng2框架范本</a></li>
+           <li><a href="https://codepen.io/designcouch/pen/obvKxm">bengbeng2弹出效果范本</a></li>
+           <li><a href="https://codepen.io/AndreCortellini/details/kaCEf/">主页框架</a></li>
+         </ul>
+       </li>
+
+       <li id="m_shuchu"><a href="#" onclick="f_shuchu()">下水道输出</a>
+        <ul id="u_shuchu" class="ul-rotateinLT">
+         <li><a href="h4/bengbeng2/bengbeng2.html">崩崩2</a></li>
+         <li><a href="h4/math/interface-4.1.html">素数自动求解</a></li>
+         <li><a href="h4/math/interface-4.2.html">整数分解因数</a></li>
+         <li><a href="h4/math/interface-4.3.html">a累加n次结果s</a></li>
+       </ul>
+     </li>
+   </ul>
+ </nav>
+ <main>
+  <div id="m_intro">
+    <h1>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+      一切开始的地方
+    </h1>
+  </div>
+  <div id="m_gongju_intro">
+    <h3>懒得个站</h3>
+    <p>额，懒得用来测试他的服务器的一个乱七八糟堆起来的玩意儿(因为和前女友分手的缘故，该服务器已经找不回密码哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈)</p>
+    <h3>前端规范</h3>
+    <p>貌似是网易旗下的一个组织。主打是代码规范，适合记性不好的强迫症患者。除此之外还有些范例之类的东西，可能没收到什么重视，东西不多，好用的有个css动画库，有演示，可以很容易找到自己想要的效果，不过也不多</p>
+    <h3>CSDN</h3>
+    <p>每次查代码相关资料都会有CSDN的技术博客，还有些文章下载之类的，资料确实比较多，就注册了，还充了会员。除了资料查找就是看看最新技术，貌似更新比较勤快，还有就是准备在上面码些技术博客</p>
+    <h3>菜鸟教程</h3>
+    <p>菜鸟教程，内容比较杂，网站看起来也比较乱，用的也不多，不过有些w3c上面没有的都会来这里找找</p>
+    <h3>w3cschool</h3>
+    <p>页面简洁，可以即时点击看效果，前端技术点该有的都有，比较全面，就是范例有点少。总的来说是目前为止最值得推荐的前端学习站</p>
+    <h3>GitHub</h3>
+    <p>非常幸运的从一开始就学会了怎么用，虽然刚学比较麻烦，不过带来的便利性真是无所能敌</p>
+    <h3>HTML学习路线</h3>
+    <p>某技术大牛写的前端学习路线，包括HTML、css、js，不装逼不摆谱，由浅入深，一步步，怎么学，在哪里学，需要注意什么，有哪些旁系末枝的技术点，乃至各个程度在行业中是什么水平，一系列下来介绍的相当详细，非常之有水平。达到了既不劝退，也不盲目哄人的终极水平。目前见过的最好的学习路线，强推</p>
+    <h3>jQurey插件库</h3>
+    <p>名字叫jQurey插件库，实际上有很多纯css实现的。除了插件还有网页模板之类的东西，因为大部分都是从国外抄过来的，所以有很多看起来确实不错</p>
+  </div>
+
+  <div id="m_shijie_intro">
+    <p>想说的都存在于这四个字里面了，魔兽争霸</p>
+    <p>年纪大了容易忘记事情，在这里放点备忘的东西吧，大概是一些使用工具的名字，众所周知我总是记不住名字</p>
+    <p>TortoiseGit GitHub上传工具，轻便好用</p>
+    <p>PHPstorm+XAMPP php编译器加环境搭建</p>
+  </div>
+
+  <div id="m_shenmei_intro">
+    <h3>禅意花园</h3>
+    <p>至今没弄懂这个网站真正的含义，不过貌似是用来选出一些真正能代表前端的作品，基于他是第一个让我觉得网页很美的网站，所以一直在这里。</p>
+    <h3>像花儿一样</h3>
+    <p>由一个个新闻热点做成的小方块所集合成的一个网站，令人感到美好的交互方式和一个个令人心动的小故事，让我为这个网站沉迷。</p>
+    <h3>3~7</h3>
+    <p>这几个都是同一个国外网站，票选出的14·15·16年年度前端小模块的一个排行榜，非常不错的创意</p>
+  </div>
+
+  <div id="m_shuchu_intro">
+    <h3>崩崩</h3>
+    <p>崩崩算是能代表我百分之八十手游生涯的一个游戏，总想去为他做点什么，但总是停留在百分之十二这个阶段</p>
+    <h3>3~4</h3>
+    <p>这是在懒得学Python的时候一个做的一些数学问题处理程序，很简单，做着玩儿的</p>   
+  </div>
+</main>
+<script type="text/javascript">
+    var message_Path = 'live2d/live2d/'
+    var home_Path = 'https://lurenxie.github.io/'  //此处修改为你的域名，必须带斜杠
+</script>
+<script type="text/javascript" src="live2d/live2d/js/live2d.js"></script>
+<script type="text/javascript" src="live2d/live2d/js/message.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "live2d/live2d/model/tia/model.json");
+</script>
+
+</body>
+
+</html>

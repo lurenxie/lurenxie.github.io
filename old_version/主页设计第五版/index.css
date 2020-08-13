@@ -1,0 +1,176 @@
+/*header {
+     text-align: center;
+     }*/
+
+     body {
+          /*为了兼容ie，加上这两句就行了，width:100%;text-align:center;*/
+          width:100%;
+          /*text-align:center;*/
+          margin: 0;
+          background: #444;
+     }
+
+     nav {
+          /*height: 56px;*/
+          margin: 0;
+          padding-bottom: 3px;
+          text-align: center;
+          background: #555;
+          box-shadow:0px 0px 20px #111;
+     }
+
+     nav ul {
+          list-style-type: none;
+          margin: 0;
+          border-radius: 10px;
+          background: linear-gradient(to bottom, #efefef, #bbbbbb);
+          padding: 0 20px;
+          display: inline-table;
+          position: relative;
+          background: #555;
+     }
+
+     /*#nav_ul_first {
+          min-width: 500px;
+          }*/
+
+          nav ul ul {
+               display: none;
+          }
+
+          nav ul li {
+               float: left;
+               box-shadow:-5px 5px 20px #333333;
+               text-shadow:rgba(0,0,0,0.8) 1px 1px 0px;
+
+          }
+
+          nav ul::after {
+               content: "";
+               display: block;
+               clear: both;
+          }
+
+          nav ul li a {
+               display: block;
+               padding: 20px 30px;
+               color: #ccc;
+               font-size:12px;
+               text-decoration: none;
+               font-family: "微软雅黑";
+          }
+
+          #u_gongju {
+               left: -150px;
+          }
+          #u_shijie {
+               left: -120px;
+          }
+          #u_shenmei {
+               left: -210px;
+          }
+          #u_shuchu {
+               left: -150px;
+          }
+          nav ul ul {
+               background: #555;
+               border-radius: 0;
+               position: absolute;
+               top: 80px;
+               padding: 0;
+          }
+
+          nav ul ul li {
+               float: none;
+               box-shadow:-5px 5px 20px #333333;
+               text-shadow:rgba(0,0,0,0.8) 1px 1px 0px;
+          }
+
+          nav ul ul li a {
+               color: #ccc;
+          }
+
+          nav ul ul li a:hover {
+               color: #ccc;
+               background: #333333;
+          }
+
+          nav ul li a:hover {
+               color: #fff;
+               background: #3c3c3c;
+          }
+
+          nav ul ul ul {
+               width: 100%;
+               position: absolute;
+               left: 100%;
+               top: 50%;
+          }
+
+          main {
+               min-height: 600px;
+               width: 501.60px;
+               /*盒子相对于父容器水平居中*/
+               margin: 0 auto;
+               box-shadow:0px 0px 20px #fff;
+               /*css3阴影兼容性问题不太方便，此处只能兼容火狐，ie、Sofari不行*/
+               /*-moz-box-shadow:0px 0px 20px #fff;/*firefox  */
+               /*-webkit-box-shadow:0px 0px 20px #fff;/*webkit*/
+               /*box-shadow:0px 0px 20px #fff;/*opera或ie9*/
+               color: #ddd;
+          }
+
+          main div {
+           margin: 20px;
+           padding: 20px;
+      }
+
+      main div h3, h1{
+          text-align:center;
+     }
+
+     #m_intro {
+          display: block;
+     }
+     #m_gongju_intro {
+          display: none;
+     }
+
+     #m_shijie_intro {
+          display: none;
+     }
+
+     #m_shenmei_intro {
+          display: none;
+     }
+
+     #m_shuchu_intro {
+          display: none;
+     }
+
+
+     .ul-rotateinLT {
+          animation:rotateinLT 1s infinite;
+          -webkit-animation:rotateinLT 1s infinite; /*Safari and Chrome*/
+          animation-iteration-count:1;
+          -webkit-animation-iteration-count:1; /* Safari 和 Chrome */
+          animation-direction:normal;
+          -webkit-animation-direction:normal; /* Safari 和 Chrome */
+     }
+
+     /* 淡入 */
+     @keyframes rotateinLT
+     {
+          0%{opacity:0;transform:translateX(-100px);}
+          60%{opacity:1;transform:translateX(30px);}
+          80%{transform:translateX(-10px);}
+          100%{transform:translateX(0);}
+     }
+
+     @-webkit-keyframes rotateinLT /*Safari and Chrome*/
+     {
+         0%{opacity:0;-webkit-transform:translateX(-100px);}
+         60%{opacity:1;-webkit-transform:translateX(30px);}
+         80%{-webkit-transform:translateX(-10px);}
+         100%{-webkit-transform:translateX(0);}
+    }
